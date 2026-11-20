@@ -1,0 +1,145 @@
+Record_ID,Date,Day,Time_Slot,Chair_ID,Room,Doctor,Service,Slot_Status,Patient_Type,Lead_Time_Days,Confirmed,Outcome,Risk_Score,Risk_Level,Chair_Hours,Booked_Flag,Attended_Flag,NoShow_Flag,NoShow_if_Booked,Revenue_KZT,Lost_Revenue_KZT,Data_Status
+R001,2026-11-02,Mon,09:00,CH-1,Room 101,Dr. Sultanova (therapist),Therapy / fillings,Booked,New,5,Yes,Attended,1,Low,1,1,1,0,0,18000,0,Synthetic
+R002,2026-11-02,Mon,09:00,CH-2,Room 102,Dr. Omarov (hygienist),Hygiene / cleaning,Booked,Returning,9,Yes,Attended,1,Low,1,1,1,0,0,15000,0,Synthetic
+R003,2026-11-02,Mon,09:00,CH-3,Room 103,Dr. Bekova (surgeon),Surgery / implant consult,Booked,New,12,No,Attended,3,High,1,1,1,0,0,25000,0,Synthetic
+R004,2026-11-02,Mon,10:00,CH-1,Room 101,Dr. Sultanova (therapist),Therapy / fillings,Booked,Returning,5,Yes,Attended,0,Low,1,1,1,0,0,18000,0,Synthetic
+R005,2026-11-02,Mon,10:00,CH-2,Room 102,Dr. Omarov (hygienist),Hygiene / cleaning,Free,,,,Free slot,,,1,0,0,0,,0,0,Synthetic
+R006,2026-11-02,Mon,10:00,CH-3,Room 103,Dr. Bekova (surgeon),Surgery / implant consult,Booked,Returning,5,Yes,Attended,0,Low,1,1,1,0,0,25000,0,Synthetic
+R007,2026-11-02,Mon,11:00,CH-1,Room 101,Dr. Sultanova (therapist),Therapy / fillings,Free,,,,Free slot,,,1,0,0,0,,0,0,Synthetic
+R008,2026-11-02,Mon,11:00,CH-2,Room 102,Dr. Omarov (hygienist),Hygiene / cleaning,Booked,New,2,Yes,Attended,1,Low,1,1,1,0,0,15000,0,Synthetic
+R009,2026-11-02,Mon,11:00,CH-3,Room 103,Dr. Bekova (surgeon),Surgery / implant consult,Booked,New,10,Yes,Attended,2,High,1,1,1,0,0,25000,0,Synthetic
+R010,2026-11-02,Mon,12:00,CH-1,Room 101,Dr. Sultanova (therapist),Therapy / fillings,Booked,Returning,12,No,Attended,2,High,1,1,1,0,0,18000,0,Synthetic
+R011,2026-11-02,Mon,12:00,CH-2,Room 102,Dr. Omarov (hygienist),Hygiene / cleaning,Booked,New,4,No,Attended,2,High,1,1,1,0,0,15000,0,Synthetic
+R012,2026-11-02,Mon,12:00,CH-3,Room 103,Dr. Bekova (surgeon),Surgery / implant consult,Free,,,,Free slot,,,1,0,0,0,,0,0,Synthetic
+R013,2026-11-02,Mon,13:00,CH-1,Room 101,Dr. Sultanova (therapist),Therapy / fillings,Free,,,,Free slot,,,1,0,0,0,,0,0,Synthetic
+R014,2026-11-02,Mon,13:00,CH-2,Room 102,Dr. Omarov (hygienist),Hygiene / cleaning,Booked,New,6,Yes,Attended,1,Low,1,1,1,0,0,15000,0,Synthetic
+R015,2026-11-02,Mon,13:00,CH-3,Room 103,Dr. Bekova (surgeon),Surgery / implant consult,Booked,Returning,1,Yes,Attended,0,Low,1,1,1,0,0,25000,0,Synthetic
+R016,2026-11-02,Mon,14:00,CH-1,Room 101,Dr. Sultanova (therapist),Therapy / fillings,Booked,New,8,Yes,Attended,2,High,1,1,1,0,0,18000,0,Synthetic
+R017,2026-11-02,Mon,14:00,CH-2,Room 102,Dr. Omarov (hygienist),Hygiene / cleaning,Booked,New,6,No,Attended,2,High,1,1,1,0,0,15000,0,Synthetic
+R018,2026-11-02,Mon,14:00,CH-3,Room 103,Dr. Bekova (surgeon),Surgery / implant consult,Booked,New,6,Yes,No-show,1,Low,1,1,0,1,1,0,25000,Synthetic
+R019,2026-11-02,Mon,15:00,CH-1,Room 101,Dr. Sultanova (therapist),Therapy / fillings,Free,,,,Free slot,,,1,0,0,0,,0,0,Synthetic
+R020,2026-11-02,Mon,15:00,CH-2,Room 102,Dr. Omarov (hygienist),Hygiene / cleaning,Booked,Returning,2,Yes,Attended,0,Low,1,1,1,0,0,15000,0,Synthetic
+R021,2026-11-02,Mon,15:00,CH-3,Room 103,Dr. Bekova (surgeon),Surgery / implant consult,Free,,,,Free slot,,,1,0,0,0,,0,0,Synthetic
+R022,2026-11-02,Mon,16:00,CH-1,Room 101,Dr. Sultanova (therapist),Therapy / fillings,Booked,Returning,2,Yes,Attended,0,Low,1,1,1,0,0,18000,0,Synthetic
+R023,2026-11-02,Mon,16:00,CH-2,Room 102,Dr. Omarov (hygienist),Hygiene / cleaning,Booked,New,14,Yes,Attended,2,High,1,1,1,0,0,15000,0,Synthetic
+R024,2026-11-02,Mon,16:00,CH-3,Room 103,Dr. Bekova (surgeon),Surgery / implant consult,Free,,,,Free slot,,,1,0,0,0,,0,0,Synthetic
+R025,2026-11-03,Tue,09:00,CH-1,Room 101,Dr. Sultanova (therapist),Therapy / fillings,Booked,New,1,No,No-show,2,High,1,1,0,1,1,0,18000,Synthetic
+R026,2026-11-03,Tue,09:00,CH-2,Room 102,Dr. Omarov (hygienist),Hygiene / cleaning,Booked,Returning,12,Yes,Attended,1,Low,1,1,1,0,0,15000,0,Synthetic
+R027,2026-11-03,Tue,09:00,CH-3,Room 103,Dr. Bekova (surgeon),Surgery / implant consult,Free,,,,Free slot,,,1,0,0,0,,0,0,Synthetic
+R028,2026-11-03,Tue,10:00,CH-1,Room 101,Dr. Sultanova (therapist),Therapy / fillings,Booked,Returning,0,Yes,Attended,0,Low,1,1,1,0,0,18000,0,Synthetic
+R029,2026-11-03,Tue,10:00,CH-2,Room 102,Dr. Omarov (hygienist),Hygiene / cleaning,Free,,,,Free slot,,,1,0,0,0,,0,0,Synthetic
+R030,2026-11-03,Tue,10:00,CH-3,Room 103,Dr. Bekova (surgeon),Surgery / implant consult,Free,,,,Free slot,,,1,0,0,0,,0,0,Synthetic
+R031,2026-11-03,Tue,11:00,CH-1,Room 101,Dr. Sultanova (therapist),Therapy / fillings,Booked,Returning,3,Yes,Attended,0,Low,1,1,1,0,0,18000,0,Synthetic
+R032,2026-11-03,Tue,11:00,CH-2,Room 102,Dr. Omarov (hygienist),Hygiene / cleaning,Free,,,,Free slot,,,1,0,0,0,,0,0,Synthetic
+R033,2026-11-03,Tue,11:00,CH-3,Room 103,Dr. Bekova (surgeon),Surgery / implant consult,Free,,,,Free slot,,,1,0,0,0,,0,0,Synthetic
+R034,2026-11-03,Tue,12:00,CH-1,Room 101,Dr. Sultanova (therapist),Therapy / fillings,Booked,Returning,1,Yes,Attended,0,Low,1,1,1,0,0,18000,0,Synthetic
+R035,2026-11-03,Tue,12:00,CH-2,Room 102,Dr. Omarov (hygienist),Hygiene / cleaning,Booked,Returning,9,Yes,Attended,1,Low,1,1,1,0,0,15000,0,Synthetic
+R036,2026-11-03,Tue,12:00,CH-3,Room 103,Dr. Bekova (surgeon),Surgery / implant consult,Free,,,,Free slot,,,1,0,0,0,,0,0,Synthetic
+R037,2026-11-03,Tue,13:00,CH-1,Room 101,Dr. Sultanova (therapist),Therapy / fillings,Booked,Returning,9,No,Attended,2,High,1,1,1,0,0,18000,0,Synthetic
+R038,2026-11-03,Tue,13:00,CH-2,Room 102,Dr. Omarov (hygienist),Hygiene / cleaning,Booked,New,6,No,Attended,2,High,1,1,1,0,0,15000,0,Synthetic
+R039,2026-11-03,Tue,13:00,CH-3,Room 103,Dr. Bekova (surgeon),Surgery / implant consult,Booked,New,14,No,No-show,3,High,1,1,0,1,1,0,25000,Synthetic
+R040,2026-11-03,Tue,14:00,CH-1,Room 101,Dr. Sultanova (therapist),Therapy / fillings,Booked,New,12,No,No-show,3,High,1,1,0,1,1,0,18000,Synthetic
+R041,2026-11-03,Tue,14:00,CH-2,Room 102,Dr. Omarov (hygienist),Hygiene / cleaning,Booked,New,5,Yes,Attended,1,Low,1,1,1,0,0,15000,0,Synthetic
+R042,2026-11-03,Tue,14:00,CH-3,Room 103,Dr. Bekova (surgeon),Surgery / implant consult,Free,,,,Free slot,,,1,0,0,0,,0,0,Synthetic
+R043,2026-11-03,Tue,15:00,CH-1,Room 101,Dr. Sultanova (therapist),Therapy / fillings,Free,,,,Free slot,,,1,0,0,0,,0,0,Synthetic
+R044,2026-11-03,Tue,15:00,CH-2,Room 102,Dr. Omarov (hygienist),Hygiene / cleaning,Booked,Returning,3,Yes,Attended,0,Low,1,1,1,0,0,15000,0,Synthetic
+R045,2026-11-03,Tue,15:00,CH-3,Room 103,Dr. Bekova (surgeon),Surgery / implant consult,Booked,Returning,7,Yes,Attended,0,Low,1,1,1,0,0,25000,0,Synthetic
+R046,2026-11-03,Tue,16:00,CH-1,Room 101,Dr. Sultanova (therapist),Therapy / fillings,Booked,Returning,2,Yes,No-show,0,Low,1,1,0,1,1,0,18000,Synthetic
+R047,2026-11-03,Tue,16:00,CH-2,Room 102,Dr. Omarov (hygienist),Hygiene / cleaning,Booked,New,2,No,Attended,2,High,1,1,1,0,0,15000,0,Synthetic
+R048,2026-11-03,Tue,16:00,CH-3,Room 103,Dr. Bekova (surgeon),Surgery / implant consult,Booked,New,10,Yes,No-show,2,High,1,1,0,1,1,0,25000,Synthetic
+R049,2026-11-04,Wed,09:00,CH-1,Room 101,Dr. Sultanova (therapist),Therapy / fillings,Free,,,,Free slot,,,1,0,0,0,,0,0,Synthetic
+R050,2026-11-04,Wed,09:00,CH-2,Room 102,Dr. Omarov (hygienist),Hygiene / cleaning,Booked,New,10,No,No-show,3,High,1,1,0,1,1,0,15000,Synthetic
+R051,2026-11-04,Wed,09:00,CH-3,Room 103,Dr. Bekova (surgeon),Surgery / implant consult,Booked,Returning,5,Yes,Attended,0,Low,1,1,1,0,0,25000,0,Synthetic
+R052,2026-11-04,Wed,10:00,CH-1,Room 101,Dr. Sultanova (therapist),Therapy / fillings,Booked,Returning,1,Yes,Attended,0,Low,1,1,1,0,0,18000,0,Synthetic
+R053,2026-11-04,Wed,10:00,CH-2,Room 102,Dr. Omarov (hygienist),Hygiene / cleaning,Free,,,,Free slot,,,1,0,0,0,,0,0,Synthetic
+R054,2026-11-04,Wed,10:00,CH-3,Room 103,Dr. Bekova (surgeon),Surgery / implant consult,Booked,New,12,Yes,Attended,2,High,1,1,1,0,0,25000,0,Synthetic
+R055,2026-11-04,Wed,11:00,CH-1,Room 101,Dr. Sultanova (therapist),Therapy / fillings,Booked,New,2,Yes,Attended,1,Low,1,1,1,0,0,18000,0,Synthetic
+R056,2026-11-04,Wed,11:00,CH-2,Room 102,Dr. Omarov (hygienist),Hygiene / cleaning,Booked,New,12,No,Attended,3,High,1,1,1,0,0,15000,0,Synthetic
+R057,2026-11-04,Wed,11:00,CH-3,Room 103,Dr. Bekova (surgeon),Surgery / implant consult,Free,,,,Free slot,,,1,0,0,0,,0,0,Synthetic
+R058,2026-11-04,Wed,12:00,CH-1,Room 101,Dr. Sultanova (therapist),Therapy / fillings,Free,,,,Free slot,,,1,0,0,0,,0,0,Synthetic
+R059,2026-11-04,Wed,12:00,CH-2,Room 102,Dr. Omarov (hygienist),Hygiene / cleaning,Booked,New,4,No,Attended,2,High,1,1,1,0,0,15000,0,Synthetic
+R060,2026-11-04,Wed,12:00,CH-3,Room 103,Dr. Bekova (surgeon),Surgery / implant consult,Booked,New,8,Yes,Attended,2,High,1,1,1,0,0,25000,0,Synthetic
+R061,2026-11-04,Wed,13:00,CH-1,Room 101,Dr. Sultanova (therapist),Therapy / fillings,Booked,Returning,9,Yes,Attended,1,Low,1,1,1,0,0,18000,0,Synthetic
+R062,2026-11-04,Wed,13:00,CH-2,Room 102,Dr. Omarov (hygienist),Hygiene / cleaning,Booked,New,1,No,Attended,2,High,1,1,1,0,0,15000,0,Synthetic
+R063,2026-11-04,Wed,13:00,CH-3,Room 103,Dr. Bekova (surgeon),Surgery / implant consult,Free,,,,Free slot,,,1,0,0,0,,0,0,Synthetic
+R064,2026-11-04,Wed,14:00,CH-1,Room 101,Dr. Sultanova (therapist),Therapy / fillings,Booked,Returning,9,No,Attended,2,High,1,1,1,0,0,18000,0,Synthetic
+R065,2026-11-04,Wed,14:00,CH-2,Room 102,Dr. Omarov (hygienist),Hygiene / cleaning,Booked,New,3,Yes,No-show,1,Low,1,1,0,1,1,0,15000,Synthetic
+R066,2026-11-04,Wed,14:00,CH-3,Room 103,Dr. Bekova (surgeon),Surgery / implant consult,Free,,,,Free slot,,,1,0,0,0,,0,0,Synthetic
+R067,2026-11-04,Wed,15:00,CH-1,Room 101,Dr. Sultanova (therapist),Therapy / fillings,Booked,Returning,12,Yes,Attended,1,Low,1,1,1,0,0,18000,0,Synthetic
+R068,2026-11-04,Wed,15:00,CH-2,Room 102,Dr. Omarov (hygienist),Hygiene / cleaning,Booked,New,14,No,No-show,3,High,1,1,0,1,1,0,15000,Synthetic
+R069,2026-11-04,Wed,15:00,CH-3,Room 103,Dr. Bekova (surgeon),Surgery / implant consult,Booked,Returning,4,Yes,Attended,0,Low,1,1,1,0,0,25000,0,Synthetic
+R070,2026-11-04,Wed,16:00,CH-1,Room 101,Dr. Sultanova (therapist),Therapy / fillings,Booked,Returning,4,No,Attended,1,Low,1,1,1,0,0,18000,0,Synthetic
+R071,2026-11-04,Wed,16:00,CH-2,Room 102,Dr. Omarov (hygienist),Hygiene / cleaning,Booked,Returning,12,No,No-show,2,High,1,1,0,1,1,0,15000,Synthetic
+R072,2026-11-04,Wed,16:00,CH-3,Room 103,Dr. Bekova (surgeon),Surgery / implant consult,Booked,New,6,No,Attended,2,High,1,1,1,0,0,25000,0,Synthetic
+R073,2026-11-05,Thu,09:00,CH-1,Room 101,Dr. Sultanova (therapist),Therapy / fillings,Booked,New,12,No,Attended,3,High,1,1,1,0,0,18000,0,Synthetic
+R074,2026-11-05,Thu,09:00,CH-2,Room 102,Dr. Omarov (hygienist),Hygiene / cleaning,Free,,,,Free slot,,,1,0,0,0,,0,0,Synthetic
+R075,2026-11-05,Thu,09:00,CH-3,Room 103,Dr. Bekova (surgeon),Surgery / implant consult,Booked,New,12,Yes,Attended,2,High,1,1,1,0,0,25000,0,Synthetic
+R076,2026-11-05,Thu,10:00,CH-1,Room 101,Dr. Sultanova (therapist),Therapy / fillings,Free,,,,Free slot,,,1,0,0,0,,0,0,Synthetic
+R077,2026-11-05,Thu,10:00,CH-2,Room 102,Dr. Omarov (hygienist),Hygiene / cleaning,Booked,New,2,No,No-show,2,High,1,1,0,1,1,0,15000,Synthetic
+R078,2026-11-05,Thu,10:00,CH-3,Room 103,Dr. Bekova (surgeon),Surgery / implant consult,Booked,New,6,Yes,Attended,1,Low,1,1,1,0,0,25000,0,Synthetic
+R079,2026-11-05,Thu,11:00,CH-1,Room 101,Dr. Sultanova (therapist),Therapy / fillings,Booked,Returning,0,Yes,Attended,0,Low,1,1,1,0,0,18000,0,Synthetic
+R080,2026-11-05,Thu,11:00,CH-2,Room 102,Dr. Omarov (hygienist),Hygiene / cleaning,Booked,New,3,No,No-show,2,High,1,1,0,1,1,0,15000,Synthetic
+R081,2026-11-05,Thu,11:00,CH-3,Room 103,Dr. Bekova (surgeon),Surgery / implant consult,Free,,,,Free slot,,,1,0,0,0,,0,0,Synthetic
+R082,2026-11-05,Thu,12:00,CH-1,Room 101,Dr. Sultanova (therapist),Therapy / fillings,Booked,Returning,0,Yes,Attended,0,Low,1,1,1,0,0,18000,0,Synthetic
+R083,2026-11-05,Thu,12:00,CH-2,Room 102,Dr. Omarov (hygienist),Hygiene / cleaning,Booked,New,1,No,Attended,2,High,1,1,1,0,0,15000,0,Synthetic
+R084,2026-11-05,Thu,12:00,CH-3,Room 103,Dr. Bekova (surgeon),Surgery / implant consult,Booked,New,5,Yes,Attended,1,Low,1,1,1,0,0,25000,0,Synthetic
+R085,2026-11-05,Thu,13:00,CH-1,Room 101,Dr. Sultanova (therapist),Therapy / fillings,Free,,,,Free slot,,,1,0,0,0,,0,0,Synthetic
+R086,2026-11-05,Thu,13:00,CH-2,Room 102,Dr. Omarov (hygienist),Hygiene / cleaning,Booked,New,4,No,Attended,2,High,1,1,1,0,0,15000,0,Synthetic
+R087,2026-11-05,Thu,13:00,CH-3,Room 103,Dr. Bekova (surgeon),Surgery / implant consult,Booked,Returning,12,Yes,Attended,1,Low,1,1,1,0,0,25000,0,Synthetic
+R088,2026-11-05,Thu,14:00,CH-1,Room 101,Dr. Sultanova (therapist),Therapy / fillings,Booked,New,3,No,No-show,2,High,1,1,0,1,1,0,18000,Synthetic
+R089,2026-11-05,Thu,14:00,CH-2,Room 102,Dr. Omarov (hygienist),Hygiene / cleaning,Booked,New,8,No,Attended,3,High,1,1,1,0,0,15000,0,Synthetic
+R090,2026-11-05,Thu,14:00,CH-3,Room 103,Dr. Bekova (surgeon),Surgery / implant consult,Free,,,,Free slot,,,1,0,0,0,,0,0,Synthetic
+R091,2026-11-05,Thu,15:00,CH-1,Room 101,Dr. Sultanova (therapist),Therapy / fillings,Booked,Returning,1,Yes,Attended,0,Low,1,1,1,0,0,18000,0,Synthetic
+R092,2026-11-05,Thu,15:00,CH-2,Room 102,Dr. Omarov (hygienist),Hygiene / cleaning,Booked,New,10,Yes,Attended,2,High,1,1,1,0,0,15000,0,Synthetic
+R093,2026-11-05,Thu,15:00,CH-3,Room 103,Dr. Bekova (surgeon),Surgery / implant consult,Free,,,,Free slot,,,1,0,0,0,,0,0,Synthetic
+R094,2026-11-05,Thu,16:00,CH-1,Room 101,Dr. Sultanova (therapist),Therapy / fillings,Booked,Returning,5,Yes,Attended,0,Low,1,1,1,0,0,18000,0,Synthetic
+R095,2026-11-05,Thu,16:00,CH-2,Room 102,Dr. Omarov (hygienist),Hygiene / cleaning,Free,,,,Free slot,,,1,0,0,0,,0,0,Synthetic
+R096,2026-11-05,Thu,16:00,CH-3,Room 103,Dr. Bekova (surgeon),Surgery / implant consult,Booked,Returning,5,Yes,Attended,0,Low,1,1,1,0,0,25000,0,Synthetic
+R097,2026-11-06,Fri,09:00,CH-1,Room 101,Dr. Sultanova (therapist),Therapy / fillings,Booked,New,5,Yes,Attended,1,Low,1,1,1,0,0,18000,0,Synthetic
+R098,2026-11-06,Fri,09:00,CH-2,Room 102,Dr. Omarov (hygienist),Hygiene / cleaning,Booked,New,8,Yes,Attended,2,High,1,1,1,0,0,15000,0,Synthetic
+R099,2026-11-06,Fri,09:00,CH-3,Room 103,Dr. Bekova (surgeon),Surgery / implant consult,Booked,Returning,1,Yes,Attended,0,Low,1,1,1,0,0,25000,0,Synthetic
+R100,2026-11-06,Fri,10:00,CH-1,Room 101,Dr. Sultanova (therapist),Therapy / fillings,Booked,Returning,0,Yes,Attended,0,Low,1,1,1,0,0,18000,0,Synthetic
+R101,2026-11-06,Fri,10:00,CH-2,Room 102,Dr. Omarov (hygienist),Hygiene / cleaning,Booked,Returning,2,Yes,Attended,0,Low,1,1,1,0,0,15000,0,Synthetic
+R102,2026-11-06,Fri,10:00,CH-3,Room 103,Dr. Bekova (surgeon),Surgery / implant consult,Booked,New,6,No,No-show,2,High,1,1,0,1,1,0,25000,Synthetic
+R103,2026-11-06,Fri,11:00,CH-1,Room 101,Dr. Sultanova (therapist),Therapy / fillings,Free,,,,Free slot,,,1,0,0,0,,0,0,Synthetic
+R104,2026-11-06,Fri,11:00,CH-2,Room 102,Dr. Omarov (hygienist),Hygiene / cleaning,Booked,Returning,4,Yes,Attended,0,Low,1,1,1,0,0,15000,0,Synthetic
+R105,2026-11-06,Fri,11:00,CH-3,Room 103,Dr. Bekova (surgeon),Surgery / implant consult,Booked,Returning,5,Yes,Attended,0,Low,1,1,1,0,0,25000,0,Synthetic
+R106,2026-11-06,Fri,12:00,CH-1,Room 101,Dr. Sultanova (therapist),Therapy / fillings,Booked,Returning,9,Yes,Attended,1,Low,1,1,1,0,0,18000,0,Synthetic
+R107,2026-11-06,Fri,12:00,CH-2,Room 102,Dr. Omarov (hygienist),Hygiene / cleaning,Booked,Returning,12,Yes,Attended,1,Low,1,1,1,0,0,15000,0,Synthetic
+R108,2026-11-06,Fri,12:00,CH-3,Room 103,Dr. Bekova (surgeon),Surgery / implant consult,Booked,New,10,No,Attended,3,High,1,1,1,0,0,25000,0,Synthetic
+R109,2026-11-06,Fri,13:00,CH-1,Room 101,Dr. Sultanova (therapist),Therapy / fillings,Booked,Returning,3,Yes,Attended,0,Low,1,1,1,0,0,18000,0,Synthetic
+R110,2026-11-06,Fri,13:00,CH-2,Room 102,Dr. Omarov (hygienist),Hygiene / cleaning,Booked,Returning,2,Yes,Attended,0,Low,1,1,1,0,0,15000,0,Synthetic
+R111,2026-11-06,Fri,13:00,CH-3,Room 103,Dr. Bekova (surgeon),Surgery / implant consult,Booked,New,4,No,Attended,2,High,1,1,1,0,0,25000,0,Synthetic
+R112,2026-11-06,Fri,14:00,CH-1,Room 101,Dr. Sultanova (therapist),Therapy / fillings,Booked,Returning,12,Yes,Attended,1,Low,1,1,1,0,0,18000,0,Synthetic
+R113,2026-11-06,Fri,14:00,CH-2,Room 102,Dr. Omarov (hygienist),Hygiene / cleaning,Booked,New,1,No,Attended,2,High,1,1,1,0,0,15000,0,Synthetic
+R114,2026-11-06,Fri,14:00,CH-3,Room 103,Dr. Bekova (surgeon),Surgery / implant consult,Free,,,,Free slot,,,1,0,0,0,,0,0,Synthetic
+R115,2026-11-06,Fri,15:00,CH-1,Room 101,Dr. Sultanova (therapist),Therapy / fillings,Booked,New,12,Yes,Attended,2,High,1,1,1,0,0,18000,0,Synthetic
+R116,2026-11-06,Fri,15:00,CH-2,Room 102,Dr. Omarov (hygienist),Hygiene / cleaning,Free,,,,Free slot,,,1,0,0,0,,0,0,Synthetic
+R117,2026-11-06,Fri,15:00,CH-3,Room 103,Dr. Bekova (surgeon),Surgery / implant consult,Booked,New,10,No,Attended,3,High,1,1,1,0,0,25000,0,Synthetic
+R118,2026-11-06,Fri,16:00,CH-1,Room 101,Dr. Sultanova (therapist),Therapy / fillings,Booked,Returning,7,Yes,Attended,0,Low,1,1,1,0,0,18000,0,Synthetic
+R119,2026-11-06,Fri,16:00,CH-2,Room 102,Dr. Omarov (hygienist),Hygiene / cleaning,Booked,Returning,9,Yes,Attended,1,Low,1,1,1,0,0,15000,0,Synthetic
+R120,2026-11-06,Fri,16:00,CH-3,Room 103,Dr. Bekova (surgeon),Surgery / implant consult,Free,,,,Free slot,,,1,0,0,0,,0,0,Synthetic
+R121,2026-11-07,Sat,09:00,CH-1,Room 101,Dr. Sultanova (therapist),Therapy / fillings,Booked,Returning,3,Yes,Attended,0,Low,1,1,1,0,0,18000,0,Synthetic
+R122,2026-11-07,Sat,09:00,CH-2,Room 102,Dr. Omarov (hygienist),Hygiene / cleaning,Booked,New,2,No,No-show,2,High,1,1,0,1,1,0,15000,Synthetic
+R123,2026-11-07,Sat,09:00,CH-3,Room 103,Dr. Bekova (surgeon),Surgery / implant consult,Booked,Returning,1,Yes,Attended,0,Low,1,1,1,0,0,25000,0,Synthetic
+R124,2026-11-07,Sat,10:00,CH-1,Room 101,Dr. Sultanova (therapist),Therapy / fillings,Booked,Returning,1,Yes,Attended,0,Low,1,1,1,0,0,18000,0,Synthetic
+R125,2026-11-07,Sat,10:00,CH-2,Room 102,Dr. Omarov (hygienist),Hygiene / cleaning,Booked,New,8,Yes,Attended,2,High,1,1,1,0,0,15000,0,Synthetic
+R126,2026-11-07,Sat,10:00,CH-3,Room 103,Dr. Bekova (surgeon),Surgery / implant consult,Free,,,,Free slot,,,1,0,0,0,,0,0,Synthetic
+R127,2026-11-07,Sat,11:00,CH-1,Room 101,Dr. Sultanova (therapist),Therapy / fillings,Booked,Returning,12,Yes,No-show,1,Low,1,1,0,1,1,0,18000,Synthetic
+R128,2026-11-07,Sat,11:00,CH-2,Room 102,Dr. Omarov (hygienist),Hygiene / cleaning,Booked,Returning,5,Yes,Attended,0,Low,1,1,1,0,0,15000,0,Synthetic
+R129,2026-11-07,Sat,11:00,CH-3,Room 103,Dr. Bekova (surgeon),Surgery / implant consult,Free,,,,Free slot,,,1,0,0,0,,0,0,Synthetic
+R130,2026-11-07,Sat,12:00,CH-1,Room 101,Dr. Sultanova (therapist),Therapy / fillings,Free,,,,Free slot,,,1,0,0,0,,0,0,Synthetic
+R131,2026-11-07,Sat,12:00,CH-2,Room 102,Dr. Omarov (hygienist),Hygiene / cleaning,Booked,New,10,Yes,Attended,2,High,1,1,1,0,0,15000,0,Synthetic
+R132,2026-11-07,Sat,12:00,CH-3,Room 103,Dr. Bekova (surgeon),Surgery / implant consult,Booked,Returning,1,Yes,Attended,0,Low,1,1,1,0,0,25000,0,Synthetic
+R133,2026-11-07,Sat,13:00,CH-1,Room 101,Dr. Sultanova (therapist),Therapy / fillings,Free,,,,Free slot,,,1,0,0,0,,0,0,Synthetic
+R134,2026-11-07,Sat,13:00,CH-2,Room 102,Dr. Omarov (hygienist),Hygiene / cleaning,Booked,Returning,12,Yes,No-show,1,Low,1,1,0,1,1,0,15000,Synthetic
+R135,2026-11-07,Sat,13:00,CH-3,Room 103,Dr. Bekova (surgeon),Surgery / implant consult,Booked,New,10,Yes,Attended,2,High,1,1,1,0,0,25000,0,Synthetic
+R136,2026-11-07,Sat,14:00,CH-1,Room 101,Dr. Sultanova (therapist),Therapy / fillings,Booked,Returning,4,Yes,Attended,0,Low,1,1,1,0,0,18000,0,Synthetic
+R137,2026-11-07,Sat,14:00,CH-2,Room 102,Dr. Omarov (hygienist),Hygiene / cleaning,Booked,Returning,3,Yes,Attended,0,Low,1,1,1,0,0,15000,0,Synthetic
+R138,2026-11-07,Sat,14:00,CH-3,Room 103,Dr. Bekova (surgeon),Surgery / implant consult,Free,,,,Free slot,,,1,0,0,0,,0,0,Synthetic
+R139,2026-11-07,Sat,15:00,CH-1,Room 101,Dr. Sultanova (therapist),Therapy / fillings,Booked,Returning,2,Yes,Attended,0,Low,1,1,1,0,0,18000,0,Synthetic
+R140,2026-11-07,Sat,15:00,CH-2,Room 102,Dr. Omarov (hygienist),Hygiene / cleaning,Booked,Returning,2,Yes,Attended,0,Low,1,1,1,0,0,15000,0,Synthetic
+R141,2026-11-07,Sat,15:00,CH-3,Room 103,Dr. Bekova (surgeon),Surgery / implant consult,Booked,New,2,No,No-show,2,High,1,1,0,1,1,0,25000,Synthetic
+R142,2026-11-07,Sat,16:00,CH-1,Room 101,Dr. Sultanova (therapist),Therapy / fillings,Booked,Returning,1,Yes,Attended,0,Low,1,1,1,0,0,18000,0,Synthetic
+R143,2026-11-07,Sat,16:00,CH-2,Room 102,Dr. Omarov (hygienist),Hygiene / cleaning,Booked,Returning,1,No,No-show,1,Low,1,1,0,1,1,0,15000,Synthetic
+R144,2026-11-07,Sat,16:00,CH-3,Room 103,Dr. Bekova (surgeon),Surgery / implant consult,Booked,New,8,Yes,Attended,2,High,1,1,1,0,0,25000,0,Synthetic

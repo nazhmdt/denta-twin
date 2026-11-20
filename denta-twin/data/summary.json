@@ -1,0 +1,197 @@
+{
+  "kpi": {
+    "records": 144,
+    "booked": 107,
+    "free": 37,
+    "attended": 88,
+    "no_shows": 19,
+    "chair_utilization_pct": 61.1,
+    "booking_rate_pct": 74.3,
+    "no_show_rate_pct": 17.8,
+    "revenue_kzt": 1656000,
+    "lost_revenue_kzt": 350000,
+    "revenue_per_chair_hour_kzt": 11500
+  },
+  "by_chair": [
+    {
+      "Chair_ID": "CH-1",
+      "slots": 48,
+      "booked": 37,
+      "attended": 32,
+      "no_shows": 5,
+      "revenue": 576000,
+      "lost": 90000,
+      "utilization_pct": 66.7,
+      "no_show_rate_pct": 13.5,
+      "rev_per_chair_hour": 12000.0
+    },
+    {
+      "Chair_ID": "CH-2",
+      "slots": 48,
+      "booked": 41,
+      "attended": 32,
+      "no_shows": 9,
+      "revenue": 480000,
+      "lost": 135000,
+      "utilization_pct": 66.7,
+      "no_show_rate_pct": 22.0,
+      "rev_per_chair_hour": 10000.0
+    },
+    {
+      "Chair_ID": "CH-3",
+      "slots": 48,
+      "booked": 29,
+      "attended": 24,
+      "no_shows": 5,
+      "revenue": 600000,
+      "lost": 125000,
+      "utilization_pct": 50.0,
+      "no_show_rate_pct": 17.2,
+      "rev_per_chair_hour": 12500.0
+    }
+  ],
+  "by_day": [
+    {
+      "Day": "Mon",
+      "booked": 17,
+      "attended": 16,
+      "no_shows": 1,
+      "revenue": 295000
+    },
+    {
+      "Day": "Tue",
+      "booked": 16,
+      "attended": 11,
+      "no_shows": 5,
+      "revenue": 187000
+    },
+    {
+      "Day": "Wed",
+      "booked": 18,
+      "attended": 14,
+      "no_shows": 4,
+      "revenue": 278000
+    },
+    {
+      "Day": "Thu",
+      "booked": 17,
+      "attended": 14,
+      "no_shows": 3,
+      "revenue": 275000
+    },
+    {
+      "Day": "Fri",
+      "booked": 20,
+      "attended": 19,
+      "no_shows": 1,
+      "revenue": 356000
+    },
+    {
+      "Day": "Sat",
+      "booked": 19,
+      "attended": 14,
+      "no_shows": 5,
+      "revenue": 265000
+    }
+  ],
+  "by_patient_type": [
+    {
+      "Patient_Type": "New",
+      "booked": 52,
+      "no_shows": 14,
+      "rate": 26.9
+    },
+    {
+      "Patient_Type": "Returning",
+      "booked": 55,
+      "no_shows": 5,
+      "rate": 9.1
+    }
+  ],
+  "by_confirmed": [
+    {
+      "Confirmed": "No",
+      "booked": 34,
+      "no_shows": 13,
+      "rate": 38.2
+    },
+    {
+      "Confirmed": "Yes",
+      "booked": 73,
+      "no_shows": 6,
+      "rate": 8.2
+    }
+  ],
+  "by_risk": [
+    {
+      "Risk_Level": "High",
+      "booked": 46,
+      "no_shows": 13,
+      "rate": 28.3
+    },
+    {
+      "Risk_Level": "Low",
+      "booked": 61,
+      "no_shows": 6,
+      "rate": 9.8
+    }
+  ],
+  "rule_eval": {
+    "TP": 13,
+    "FP": 33,
+    "FN": 6,
+    "TN": 55,
+    "accuracy_pct": 63.6,
+    "precision_pct": 28.3,
+    "recall_pct": 68.4,
+    "high_risk_bookings": 46,
+    "baseline_accuracy_pct_all_attend": 82.2
+  },
+  "threshold_sensitivity": [
+    {
+      "threshold": 1,
+      "flagged": 70,
+      "caught": 18,
+      "precision_pct": 25.7,
+      "recall_pct": 94.7
+    },
+    {
+      "threshold": 2,
+      "flagged": 46,
+      "caught": 13,
+      "precision_pct": 28.3,
+      "recall_pct": 68.4
+    },
+    {
+      "threshold": 3,
+      "flagged": 10,
+      "caught": 4,
+      "precision_pct": 40.0,
+      "recall_pct": 21.1
+    }
+  ],
+  "baseline_unconfirmed_only": {
+    "flagged": 34,
+    "caught": 13,
+    "precision_pct": 38.2,
+    "recall_pct": 68.4
+  },
+  "benefit": {
+    "assumptions": {
+      "call_minutes": 3,
+      "admin_cost_kzt_per_hour": 1800,
+      "save_rate_after_call": 0.4,
+      "weeks_per_month": 4
+    },
+    "avg_check_of_missed_visit_kzt": 18421,
+    "recovered_visits_per_week": 5.2,
+    "recovered_revenue_week_kzt": 95789,
+    "recovered_revenue_month_kzt": 383158,
+    "utilization_after_pct": 64.7,
+    "calls_all_week": 107,
+    "calls_high_risk_week": 46,
+    "admin_minutes_saved_week": 183,
+    "admin_hours_saved_month": 12.2,
+    "admin_cost_saved_month_kzt": 21960
+  }
+}
