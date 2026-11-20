@@ -10,7 +10,7 @@ no-show risk, and a virtual clinic lets patients see free slots from the twin an
 **All data in this repository are synthetic.** The prototype is not connected to any real clinic system.
 
 ## Live links
-- 3D twin and virtual clinic: https://denta-twin.onrender.com
+- 3D twin and virtual clinic: https://denta-twin.onrender.com/dentatwin.html#manager
 - Dashboard (Looker Studio): https://datastudio.google.com/reporting/efa831bf-625f-4053-83c0-681895c87e35
 - Video walkthrough: https://youtu.be/v83EE3j8ANM
 
